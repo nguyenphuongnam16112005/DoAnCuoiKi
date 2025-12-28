@@ -15,6 +15,7 @@ namespace QuanLyBanHang
         public Form7()
         {
             InitializeComponent();
+<<<<<<< HEAD
             // Register click handler for Thanh toán button
             this.btnThanhToan.Click += BtnThanhToan_Click;
 <<<<<<< Updated upstream
@@ -38,6 +39,8 @@ namespace QuanLyBanHang
             {
                 f8.ShowDialog(this);
             }
+=======
+>>>>>>> parent of 2454973 (Them LINQ, EF theo Empty Code First model.)
         }
     }
 }
