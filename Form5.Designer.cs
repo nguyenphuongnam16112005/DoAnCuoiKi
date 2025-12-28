@@ -56,7 +56,12 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.menuStrip1.Size = new System.Drawing.Size(857, 30);
+=======
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(643, 28);
+>>>>>>> Stashed changes
 =======
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(643, 28);

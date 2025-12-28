@@ -17,6 +17,18 @@ namespace QuanLyBanHang
             InitializeComponent();
             // Register click handler for Thanh toán button
             this.btnThanhToan.Click += BtnThanhToan_Click;
+<<<<<<< Updated upstream
+=======
+        }
+
+        private void BtnThanhToan_Click(object sender, EventArgs e)
+        {
+            // Open Form8 for payment
+            using (var f8 = new Form8())
+            {
+                f8.ShowDialog(this);
+            }
+>>>>>>> Stashed changes
         }
 
         private void BtnThanhToan_Click(object sender, EventArgs e)
