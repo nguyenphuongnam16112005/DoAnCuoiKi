@@ -39,13 +39,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpChonNgay = new System.Windows.Forms.DateTimePicker();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvCTBH = new System.Windows.Forms.DataGridView();
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IdIteam2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NameIteam2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoLuong2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCTBH)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -55,7 +55,12 @@
             this.xemToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+<<<<<<< Updated upstream
             this.menuStrip1.Size = new System.Drawing.Size(857, 30);
+=======
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(643, 28);
+>>>>>>> Stashed changes
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -106,7 +111,8 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(228, 108);
+            this.label1.Location = new System.Drawing.Point(171, 88);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(390, 54);
             this.label1.TabIndex = 2;
@@ -118,7 +124,8 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(7, 200);
+            this.label2.Location = new System.Drawing.Point(5, 162);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(169, 20);
             this.label2.TabIndex = 2;
@@ -128,26 +135,28 @@
             // 
             this.dtpChonNgay.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtpChonNgay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpChonNgay.Location = new System.Drawing.Point(213, 195);
+            this.dtpChonNgay.Location = new System.Drawing.Point(160, 158);
+            this.dtpChonNgay.Margin = new System.Windows.Forms.Padding(2);
             this.dtpChonNgay.Name = "dtpChonNgay";
-            this.dtpChonNgay.Size = new System.Drawing.Size(321, 27);
+            this.dtpChonNgay.Size = new System.Drawing.Size(242, 27);
             this.dtpChonNgay.TabIndex = 3;
             // 
-            // dataGridView1
+            // dgvCTBH
             // 
-            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvCTBH.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgvCTBH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCTBH.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Date,
             this.IdIteam2,
             this.NameIteam2,
             this.SoLuong2});
-            this.dataGridView1.Location = new System.Drawing.Point(13, 248);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(832, 427);
-            this.dataGridView1.TabIndex = 4;
+            this.dgvCTBH.Location = new System.Drawing.Point(10, 202);
+            this.dgvCTBH.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvCTBH.Name = "dgvCTBH";
+            this.dgvCTBH.RowHeadersWidth = 51;
+            this.dgvCTBH.RowTemplate.Height = 24;
+            this.dgvCTBH.Size = new System.Drawing.Size(624, 347);
+            this.dgvCTBH.TabIndex = 4;
             // 
             // Date
             // 
@@ -179,11 +188,11 @@
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyBanHang.Properties.Resources.tải_xuống1;
-            this.ClientSize = new System.Drawing.Size(857, 687);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(643, 558);
+            this.Controls.Add(this.dgvCTBH);
             this.Controls.Add(this.dtpChonNgay);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -191,11 +200,12 @@
             this.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form5";
             this.Text = "Kho và tổng đơn";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCTBH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,7 +223,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dtpChonNgay;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvCTBH;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdIteam2;
         private System.Windows.Forms.DataGridViewTextBoxColumn NameIteam2;
